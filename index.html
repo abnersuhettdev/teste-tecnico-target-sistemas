@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 80vh;
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            background-color: #5C5D67;
+        }
+        div{
+            display: grid;
+            place-items: center;
+            gap: 20px;
+        }
+        button{
+            height: 80px;
+            width: 300px;
+            color: white;
+            background-color:#A68BA5;
+            font-size: 1.6rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: start;
+            border-radius: 8px;
+            border: none;
+        }
+        button:hover{
+            background-color: #C493B0 ;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <button onclick="fibonacci()">2) Fibonacci</button>
+        <button onclick="faturamento()">3) Calcular Faturamento</button>
+        <button onclick="calcularPercentual()">4) Calcular Percentual</button>
+        <button onclick="inverteString()">5) Inverter uma String</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
